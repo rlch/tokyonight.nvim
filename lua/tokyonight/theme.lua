@@ -403,6 +403,8 @@ function M.setup(config)
     HopUnmatched = { fg = c.dark3 },
 
     LightspeedGreyWash = { fg = c.dark3 },
+
+    FlutterClosingTag  = { fg = util.darken(c.comment, 0.4) }
   }
 
   theme.defer = {}
